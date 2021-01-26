@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(245, 233, 218);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgb(243, 213, 130);
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(105, 110, 110);
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  li a:hover {
+    background-color: rgb(21, 248, 248);
+  }
+  .containner {
+    width:70%;
+    height: 120vh;
+    margin: 0 auto;
+    background: url(/image/4.jpg) no-repeat;
+    color: rgb(9, 10, 10);
+
+  }
