@@ -26,10 +26,19 @@ ul {
     background-color: rgb(21, 248, 248);
   }
   .containner {
-    width:70%;
+    width:75%;
     height: 120vh;
     margin: 0 auto;
-    background: url(/image/4.jpg) no-repeat;
+    background: url(/image/1.jpg)no-repeat;
     color: rgb(9, 10, 10);
 
+  }
+  .seconder{
+    width: 90%;
+  }
+  .Three img{
+    float: left;
+    width:70%;
+    margin:10px;
+  
   }
