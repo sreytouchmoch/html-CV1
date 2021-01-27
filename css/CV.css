@@ -1,0 +1,106 @@
+body{
+    background-color: rgb(233, 247, 195);
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(236, 120, 11);
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  
+  li a:hover {
+    background-color: rgb(250, 167, 229);
+  }
+
+  .containner {
+    width:75%;
+    height: 120vh;
+    margin: 0 auto;
+    background: url(/image/1.jpg)no-repeat;
+    color: rgb(9, 10, 10);
+
+  }
+  .one{
+    list-style: none;
+    display: flex;
+    justify-content:flex-end;
+  }
+  .one li a{
+    color: rgb(20, 18, 18);
+    background-color: powderblue;
+  }
+
+.frist{
+  width: 100%;
+  padding: 0;
+  margin: 0;
+
+}
+
+
+
+.container-register {
+    width: 500px;
+    padding: 10px;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+}
+input[type="text"],
+input[type="Password"],
+input[type="email"],
+input[type="date"]{
+    padding: 8px;
+    margin: 10px 0;
+}
+h3 {
+    text-align: center;
+    color: teal;
+    text-transform: uppercase;
+}
+input[type="text"]{
+    width: 227px;
+}
+input[type="password"]{
+    width: 227px;
+}
+input[type="date"]{
+    width: 480px;
+}
+input[type="file"]{
+    padding: 1px;
+}
+select {
+    width: 495px;
+    padding: 10px;
+}
+input[type="submit"]{
+    width: 495px;
+    padding: 10px;
+    border-radius: 40px;
+    color: #fff;
+    background-color: teal;
+    text-transform: uppercase;
+}
+.login{
+  text-align-last: center;
+}
+
+
+
+
+
