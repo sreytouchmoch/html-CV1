@@ -38,7 +38,16 @@ ul {
   }
   .Three img{
     float: left;
-    width:70%;
+    width:95%;
     margin:10px;
+    padding: 10px;
   
+  }
+
+
+  p{
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px;
+    
   }
