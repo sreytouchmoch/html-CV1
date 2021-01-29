@@ -32,7 +32,6 @@ ul {
     margin: 0 auto;
     background: url(/image/1.jpg)no-repeat;
     color: rgb(9, 10, 10);
-
   }
   .containner p{
       padding: 5px;
@@ -41,12 +40,10 @@ ul {
   h1{
       text-align: center;
   }
-  
   .seconder{
     padding: 10px;
     margin: 10px;
   }
-
   .Three{
       width: 100%;
       background:url(/image/4.jpg)navajowhite;
@@ -61,18 +58,14 @@ p{
 h2{
     margin-left: 10px;
     color: olivedrab;
-    
 }
 h3{
     padding: 10px;
     margin: 5px;
 }
-
 .active {
   background-color: #4CAF50;
 }
-
-
 .grid-container{
   display: grid;
   grid-template-columns: repeat(2,1fr);
@@ -94,13 +87,11 @@ h3{
   width: 90%;
   margin: auto;
   margin-bottom: 20px;
-
 }
 
 .serve {
   grid-column: 1 /4;
   text-align: center;
-
 }
 .serve-three {
   width:100%;
@@ -113,10 +104,8 @@ h3{
   flex-direction: column;
   height: 90vh;
 }
-
 .footer{
   background: rgb(247, 241, 188);
-
   text-align: center;
   font-size: 20px;
   color: blue;
