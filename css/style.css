@@ -1,6 +1,7 @@
 
   body{
     background-color: rgb(245, 233, 218);
+    font-family: sans-serif;
 }
 ul {
     list-style-type: none;
@@ -24,15 +25,20 @@ ul {
     background-color: rgb(21, 248, 248);
   }
   .containner {
-    width:75%;
     height: 120vh;
     margin: 0 auto;
-    background: url(/image/1.jpg)no-repeat;
-    color: rgb(9, 10, 10);
+    background: #a5ada5;
   }
   .containner p{
-      padding: 5px;
-      margin: 10px;
+    font-size: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 10px;
+    color: rgb(17, 67, 231);
   }
   h1{
       text-align: center;

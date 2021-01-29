@@ -127,8 +127,6 @@ h1{
   text-align: center;
 }
 .box-one {
-  background: url(/image/8.PNG);
-  background-size: cover;
   height: 80vh;
   display: flex;
   justify-content: flex-start;
@@ -136,8 +134,6 @@ h1{
   flex-direction: column;
 }
 .box-two {
-  background: url(/image/5.jpeg);
-  background-size: cover;
   display: flex;
   justify-content: flex-end;
   align-items: flex-start;
