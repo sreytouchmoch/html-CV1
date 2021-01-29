@@ -32,7 +32,6 @@ ul {
     width: 90%;
     margin: auto;
     margin-bottom: 20px;
-    
 }
 
 .serve {
@@ -54,15 +53,14 @@ ul {
     background-image: url(8.jpg);
     color:rgb(20, 20, 17);
     height: 65vh;
-
 }
- 
-h2{
-  padding: 10px;
-  color:rgb(0, 0, 0);
-  text-align: center;
-  font-size: 30px;
 
+h2{
+  text-align: center;
+  color: rgb(33, 172, 172);
+}
+.serve ,h1{
+  color:rgb(33, 172, 172)
 }
 h3{
   font-size:25px;
@@ -70,16 +68,13 @@ h3{
   padding: 10px;
   margin: 10px;
   font-family: cursive;
-
 }
-
 p{
   margin: 10px;
   padding: 10px;
   color: rgb(1, 22, 27);
   font-size: 20px;
 }
-
 .footer{
   background: rgb(247, 241, 188);
   text-align: center;

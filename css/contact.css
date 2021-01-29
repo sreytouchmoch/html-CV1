@@ -44,29 +44,6 @@ h1{
   margin-bottom: 20px;
   
 }
-
-.serve {
-  grid-column: 1 / 3;
-  text-align: center;
-}
-.serve-one {
-  background-image: url(3.jpg);
-  background-size: cover;
-  height: 60vh;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-}
-.serve-two {
-  background-image: url(2.jpg);
-  background-size: cover;
-  height: 60vh;
-  display: flex;
-  justify-content: flex-end;
-  align-items: flex-start;
-  flex-direction: column;
-}
 .footer {
   position: fixed;
   left: 0;
@@ -77,9 +54,54 @@ h1{
   font-size: 20px;
 
 }
-.login{
-  background: rgb(247, 137, 3);
-  width: 30%;
+.container-register {
+  width: 500px;
+  padding: 10px;
+  background: #fff;
+  border-radius: 5px;
   text-align: center;
-  border-radius: 100px;
 }
+input[type="text"],
+input[type="Password"],
+input[type="email"],
+input[type="date"]{
+  padding: 8px;
+  margin: 10px 0;
+}
+h3 {
+  text-align: center;
+  color: teal;
+  text-transform: uppercase;
+}
+input[type="text"]{
+  width: 227px;
+}
+input[type="password"]{
+  width: 227px;
+}
+input[type="date"]{
+  width: 480px;
+}
+input[type="file"]{
+  padding: 1px;
+}
+select {
+  width: 495px;
+  padding: 10px;
+}
+
+.login{
+list-style: none;
+display: flex;
+justify-content: space-evenly;
+height: 90vh;
+}
+.submit a{
+background-color: powderblue;
+width: 98%;
+padding: 5px;
+margin:0;
+font-size: 30px;
+color: rgb(11, 138, 95);
+}
+
